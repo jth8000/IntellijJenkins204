@@ -6,7 +6,7 @@ import java.util.Set;
 import static org.junit.Assert.*;
 
 public class CalculatorTestThorough {
-    //Add a comment to push...
+
     @Test
     public void addTest(){
         Calculator myCalculator = new Calculator();
