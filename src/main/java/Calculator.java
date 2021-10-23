@@ -54,7 +54,7 @@ class Calculator {
         return b;
     }
 
-    // Wow look at this change...
+    this will break the program yaya {]}
 
     /*
     Returns binary value of the given int number
