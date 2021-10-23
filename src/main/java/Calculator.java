@@ -41,20 +41,18 @@ class Calculator {
     .
     etc
      */
-    int fibonacciNumberFinder(int n){
-        int a = 0, b = 1, c;
+    int fibonacciNumberFinder(int n) {
+        int a=0, b=1, c;
         if (n == 0) {
             return a;
         }
-        for (int i = 2; i <= n; i++) {
-            c = a + b;
-            a = b;
-            b = c;
+        for (int i=2; i <= n; i++) {
+            c=a + b;
+            a=b;
+            b=c;
         }
         return b;
     }
-
-    this will break the program yaya {]}
 
     /*
     Returns binary value of the given int number
